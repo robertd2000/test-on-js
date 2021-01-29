@@ -1,94 +1,105 @@
 body {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .container {
-    margin: 0 auto;
-    margin-top: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .container__inner {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .count {
-    text-align: center;
-    margin: 10px auto;
-    border: 1px solid rgb(75, 74, 74);
-    border-radius: 5px;
-    width: 80px;
+  text-align: center;
+  margin: 10px auto;
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 5px;
+  width: 80px;
 }
 .answer {
-    width: 700px;
-    border: 1px solid rgb(75, 74, 74);
-    border-radius: 10px;
-    padding: 50px 20px;
-    text-align: center;
-    margin: 10px auto;
-    margin-top: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    font-size: 30px;
+  width: 700px;
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 10px;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 10px auto;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  font-size: 30px;
 }
 
 .ques {
-    margin: 10px auto;
-    width: 600px;
-    padding: 20px;
-    text-align: center;
+  margin: 10px auto;
+  width: 600px;
+  padding: 20px;
+  text-align: center;
 }
 
 .q_item {
-    border: 1px solid rgb(117, 117, 117);
-    border-radius: 10px;   
-    padding: 20px;
-    margin: 10px auto;
-    transition: all .1s linear;
-    box-shadow: 0 0 10px rgba(105, 104, 104, 0.5); /* Параметры тени */
-    cursor: pointer;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px auto;
+  transition: all 0.1s linear;
+  box-shadow: 0 0 10px rgba(105, 104, 104, 0.5); /* Параметры тени */
+  cursor: pointer;
 }
 
 .q_item:hover {
-    background-color: rgb(167, 164, 164);
-    color: rgb(248, 247, 246);
+  background-color: rgb(167, 164, 164);
+  color: rgb(248, 247, 246);
 }
 
 .right {
-    background-color: rgb(38, 192, 38);
-    border-color: rgb(38, 192, 38);
-    transition: linear all .1s;
+  background-color: rgb(38, 192, 38);
+  border-color: rgb(38, 192, 38);
+  transition: linear all 0.1s;
 }
 
 .wrong {
-    background-color: red;
+  background-color: red;
 }
 
 .result {
-    width: 400px;
-    margin: 10px auto;
-    font-size: 30px;
-    border: 1px solid rgb(75, 74, 74);
-    border-radius: 10px;   
-    padding: 40px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  width: 400px;
+  margin: 10px auto;
+  font-size: 30px;
+  border: 1px solid rgb(75, 74, 74);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 
-.endBtn, .date {
-    margin: 20px auto;
-    width: 200px;
-    cursor: pointer;
+.endBtn,
+.date {
+  margin: 20px auto;
+  width: 200px;
+  cursor: pointer;
 }
 
 .start__test {
-    margin: 40px auto;
-    width: 70px;
-    background-color: rgb(172, 167, 167);
-    color: white;
-    padding: 20px 50px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    transition: all linear .1s;
-    cursor: pointer;
+  margin: 40px auto;
+  width: 70px;
+  background-color: rgb(172, 167, 167);
+  color: white;
+  padding: 20px 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+  transition: all linear 0.1s;
+  cursor: pointer;
 }
 
 .start__test:hover {
-    background-color: rgb(190, 188, 188);
+  background-color: rgb(190, 188, 188);
+}
+
+.image,
+.image img {
+  margin: 0 auto;
+  width: 660px;
+}
+
+.image img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
